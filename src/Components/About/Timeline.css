@@ -1,0 +1,26 @@
+.mainsection {
+  width: 100%;
+}
+
+.mainsection > :nth-child(1) {
+  margin-bottom: 2em;
+}
+
+.vertical-timeline-element-subtitle {
+  margin-top: 0.5em;
+  font-size: 0.9em;
+  /* color: rgb(15, 47, 59); */
+}
+
+.vertical-timeline-element-title {
+  font-size: 1.1em;
+  color: var(--clr-primary);
+  color: rgb(234, 16, 16); 
+}
+
+.mainsection .MuiSvgIcon-root{
+  color: rgb(31, 170, 10);
+}
+h5{
+  color: rgb(18, 210, 190);
+}

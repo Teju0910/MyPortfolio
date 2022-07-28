@@ -1,0 +1,79 @@
+.about {
+  flex-direction: column;
+  margin-top: 1em;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz9A8p-B6W871BB9cqQlU1C-LGOKamcs0f0g&usqp=CAU");
+  background-size: cover;
+  padding: 50px;
+
+}
+h1{
+  background: none;
+  color: var(--clr-primary);
+  color: rgb(37, 37, 83);
+}
+p{
+  background: none;
+}
+a{
+  background: none;
+}
+.about__name {
+  color: var(--clr-primary);
+  color: rgb(37, 37, 83);
+  /* color: rgb(37, 37, 83); */
+  margin-top: 3em;
+  background:none;
+}
+.about > :nth-child(2) {
+  margin-top: 1.2em;
+  font-size: 2rem;
+  line-height: 1.2;
+  color: var(--clr-fg-alt);
+  background:none;
+}
+
+.about__desc {
+  color: rgb(37, 37, 83);
+  font-size: 1rem;
+  max-width: 80%;
+}
+
+.about__desc,
+.about__contact {
+  margin-top: 2.4em;
+  background: none;
+
+}
+.about__contact{
+  color: rgb(11, 7, 7);
+}
+
+.about .link--icon {
+  margin-right: 0.8em;
+}
+
+.about .btn--outline {
+  margin-right: 1em;
+}
+
+.color{
+  color: black;
+}
+
+@media (max-width: 600px) {
+  .app .about {
+    align-items: flex-start;
+    margin-top: 2em;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+  
+  }
+  .about > :nth-child(2) {
+    font-size: 1.5rem;
+    
+  }
+  .about__desc{
+    margin-right: 7%;
+  }
+}
