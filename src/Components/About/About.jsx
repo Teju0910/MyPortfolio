@@ -4,8 +4,6 @@ import { Type } from "./Type";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
-import PhoneIcon from "@material-ui/icons/Phone";
-import FacebookIcon from "@material-ui/icons/Facebook";
 import DescriptionIcon from "@material-ui/icons/Description";
 import PublicIcon from "@material-ui/icons/Public";
 import { Introduction } from "./Introduction";
@@ -24,9 +22,9 @@ export const About = () => {
         </div>
 
         <p className="about__desc" data-aos="fade-right">
-          An aspiring full stack web developer with passion for building
-          interactive experiences and bringing deep understanding of MERN stack
-          and DSA which will help to grow company as well as my knowledge.
+          An full stack web developer with passion for building
+          interactive experiences and bringing deep understanding of React,
+          Typescript and NodeJs which will help to grow company as well as my knowledge.
         </p>
         <div className="about__contact center">
           <a
@@ -70,7 +68,7 @@ export const About = () => {
           </a>
           <a
             style={{ color: "#150f17" }}
-            href="https://drive.google.com/file/d/1V1PlWNTT9f01JnkcSpRe3MWNymmE07Bj/view?usp=sharing"
+            href="https://drive.google.com/file/d/1tSkXFiD0CsMj_6lQ8llRlhN63zlAI2re/view?usp=sharing"
             aria-label="resume"
             className="link link--icon"
             target="_blank"

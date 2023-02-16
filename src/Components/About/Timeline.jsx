@@ -32,7 +32,42 @@ export const Timeline = () => {
         </h2>
         <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
-            date={"Nov 2021 - June 2022"}
+            date={"August 2022 - Present"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              backgroundColor: `var(--clr-bg)`,
+              //backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+              // color: ` rgb(18, 12, 89)`,
+            }}
+            contentArrowStyle={{ borderRight: "16px solid  rgb(33, 150, 243)" }}
+            iconStyle={{
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<SchoolIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Full Stack Web Developer
+            </h3>
+
+            <p data-aos="fade-right">
+              <a href="https://app.convint.ai/">  ConvInt.ai</a>
+            </p>
+            {/* <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            > India (Chennai)</h4> */}
+            <p data-aos="fade-right">
+
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            date={"Nov 2021 - August 2022"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,
